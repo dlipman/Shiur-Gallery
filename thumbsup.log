@@ -1,0 +1,13 @@
+2019-05-21T15:14:59.325Z thumbsup:warn ffmpeg (https://www.ffmpeg.org) is not installed. You will not be able to process videos.
+2019-05-21T15:14:59.326Z thumbsup:warn gifsicle (http://www.lcdf.org/gifsicle) is not installed. You will not be able to process animated GIFs.
+2019-05-21T15:15:14.833Z thumbsup:error Error processing Test1.mp4 -> media\large\Test1.mp4
+2019-05-21T15:15:14.833Z thumbsup:error Error: spawn ffmpeg ENOENT
+2019-05-21T15:15:14.833Z thumbsup:error Error processing Test1.mp4 -> media\thumbs\Test1.jpg
+2019-05-21T15:15:14.833Z thumbsup:error Error: spawn ffmpeg ENOENT
+2019-05-21T15:15:14.834Z thumbsup:error Error processing Test1.mp4 -> media\small\Test1.jpg
+2019-05-21T15:15:14.834Z thumbsup:error Error: spawn ffmpeg ENOENT
+2019-05-21T15:15:14.834Z thumbsup:error Error processing Test1.mp4 -> media\large\Test1.jpg
+2019-05-21T15:15:14.834Z thumbsup:error Error: spawn ffmpeg ENOENT
+2019-05-21T15:15:15.364Z thumbsup:warn The following sources files were not processed:
+2019-05-21T15:15:15.364Z thumbsup:warn Test1.mp4
+2019-05-21T15:29:20.969Z thumbsup:warn gifsicle (http://www.lcdf.org/gifsicle) is not installed. You will not be able to process animated GIFs.
