@@ -4,7 +4,7 @@
   <head>
       <meta charset="utf-8" />
       <meta name="viewport" content="width=device-width, user-scalable=no" />
-      <title>Photo album - Home</title>
+      <title>Shiur Gallery - Home</title>
       <link rel="stylesheet" href="public\lightgallery\css\lightgallery.css" />
       <link rel="stylesheet" href="public\lightgallery\css\lg-exif.min.css" />
       <link rel="stylesheet" href="public\videojs\video-js.min.css" />
@@ -16,7 +16,7 @@
 
     <header>
       <a href="index.html">
-        <h1>Photo album</h1>
+        <h1>Shiur Gallery</h1>
       </a>
     </header>
     
@@ -25,32 +25,26 @@
     -->
     
     <ul id="galleries">
+     <li>
+       <a href="Shavuot.html">
+         <h3>Shavuot</h3>
+         <div class="meta">
+           1 video<br />
+           22 May 2019 - 22 May 2019
+         </div>
+         <ul class="grid"><li><img src="media\thumbs\Shavuot\OC494-1.jpg" /></li><li><img src="public\missing.png" /></li><li><img src="public\missing.png" /></li><li><img src="public\missing.png" /></li>     </ul>
+       </a>
+     </li>
     </ul>
     
     <ul id="media">
-        
-          <li data-html="#media1"
-              data-download-url="media\large\Test1.mp4">
-            <a href="media\large\Test1.mp4">
-              <img src="media\thumbs\Test1.jpg"
-                   width="120"
-                   height="120"
-                   alt="Test1.mp4" />
-            </a>
-            <img class="video-overlay" src="public\play.png" />
-          </li></ul>
+    </ul>
     
     <!--
       Optional footer
     -->
     <!-- Video loader -->
     <div id="videos">
-          <div id="media1" style="display:none;">
-            <video class="lg-video-object lg-html5 video-js vjs-default-skin vjs-big-play-centered"  poster="media\large\Test1.jpg" preload="none" controls>
-              <source src="media\large\Test1.mp4" type="video/mp4" />
-              Your browser does not support HTML5 video
-            </video>
-          </div>
     </div>
 
     <!-- jQuery -->
